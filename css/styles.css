@@ -955,6 +955,9 @@ padding: 2px;
   border: none;
 }
 
+.menu-container.is-open {
+  transform: translateX(0);
+}
 .menu-container {
   position: fixed;
   top: 0;
