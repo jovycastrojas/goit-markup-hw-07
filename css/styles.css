@@ -1207,6 +1207,7 @@ padding: 2px;
 
 .input-footer-email {
   margin-bottom: 16px;
+  margin-right: 0px;
 }
 
 .footer-subscribe-title {
@@ -1214,6 +1215,11 @@ padding: 2px;
 }
 .modal-content, .form-input, .modal-comment {
   width: 100%;
+}
+
+.portfolio-nav {
+  display: flex;
+  padding: 0px; 
 }
 
 .modal-content{
@@ -1314,6 +1320,10 @@ padding: 2px;
   row-gap: 64px;
   }
 
+  .client-title {
+    margin-bottom: 0;
+  }
+
   .client-logo {
       max-width: 552px;
       margin: 0 auto;
@@ -1334,8 +1344,12 @@ padding: 2px;
       align-self: flex-end;
   }
 
+  .footer-content {
+    display: flex;
+  }
   .footer-container {
       max-width: 552px;
+      flex-wrap: wrap;
   }
 
   .footer-description-section {
@@ -1351,13 +1365,19 @@ padding: 2px;
   }
 
   .footer-subscription {
-      width: 264px;
+    width: unset;
   }
 
   .input-footer-email {
     margin-bottom: 16px;
   }
 
+  .footer-socials {
+    display: flex;
+    flex-direction: column;
+    margin-left: 24px;
+  }
+  
   
 }
 
